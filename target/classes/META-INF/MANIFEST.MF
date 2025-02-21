@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1740116646449
+Build-Jdk-Spec: 1.8
+Bundle-Activator: com.URPlus.dynamiquePN.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: funh@universal-robots.com
+Bundle-Copyright: Example license
+Bundle-Description: it only works with a ursim path: /home/ur/ursim/ursi
+ m-5.15.0.126572/
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: dynamiquePN
+Bundle-SymbolicName: com.URPlus.dynamiquePN
+Bundle-Vendor: URPlus
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Import-Package: com.ur.urcap.api.contribution;version="[1.9,2)",com.ur.u
+ rcap.api.contribution.installation;version="[1.8,2)",com.ur.urcap.api.c
+ ontribution.installation.swing;version="[1.8,2)",com.ur.urcap.api.contr
+ ibution.program;version="[1.9,2)",com.ur.urcap.api.contribution.program
+ .swing;version="[1.8,2)",com.ur.urcap.api.domain;version="[1.11,2)",com
+ .ur.urcap.api.domain.data;version="[1.11,2)",com.ur.urcap.api.domain.sc
+ ript;version="[1.8,2)",com.ur.urcap.api.domain.system;version="[1.8,2)"
+ ,com.ur.urcap.api.domain.system.localization;version="[1.8,2)",javax.sw
+ ing,javax.swing.border,org.osgi.framework;version="[1.6,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+URCapCompatibility-CB3: true
+URCapCompatibility-eSeries: true
